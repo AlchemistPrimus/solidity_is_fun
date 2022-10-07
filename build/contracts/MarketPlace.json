@@ -1,0 +1,77 @@
+{
+  "contractName": "MarketPlace",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/erc_token1.sol\":\"MarketPlace\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/erc_token1.sol\":{\"keccak256\":\"0x67a0043df6ccd1449b0d65c1cd4fd753c9f1b22363fad86a26b0579471a881e6\",\"urls\":[\"bzz-raw://6266dc98b4ae29bb298d0e075223492c9a1fa01baf39292b9bfbb453e2d110bf\",\"dweb:/ipfs/QmRn2ByXBhMXvJ1cdbLBSYyhMAXfUgckhfoSi432gkGb1a\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220ccf0fb8d8220a6b96213e99e566550c77a98da45e391de13d0f613eaf508d7fb64736f6c634300080f0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220ccf0fb8d8220a6b96213e99e566550c77a98da45e391de13d0f613eaf508d7fb64736f6c634300080f0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "35:28:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "35:28:1:-:0;;;;;",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\n\n\ncontract MarketPlace{\n    \n}",
+  "sourcePath": "/home/ado/Desktop/hardcore_programming/web3/web3_ethereum/contracts/erc_token1.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/erc_token1.sol",
+    "exportedSymbols": {
+      "MarketPlace": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MarketPlace",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "MarketPlace",
+        "nameLocation": "44:11:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "35:28:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:63:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-28T13:52:25.638Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

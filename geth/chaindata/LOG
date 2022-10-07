@@ -1,0 +1,38 @@
+=============== Aug 2, 2022 (EAT) ===============
+15:20:03.414303 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:20:03.428435 db@open opening
+15:20:03.429737 version@stat F·[] S·0B[] Sc·[]
+15:20:03.434707 db@janitor F·2 G·0
+15:20:03.434767 db@open done T·6.28689ms
+15:20:03.435668 db@close closing
+15:20:03.435764 db@close done T·92.087µs
+=============== Aug 2, 2022 (EAT) ===============
+15:34:51.459995 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:34:51.460178 version@stat F·[] S·0B[] Sc·[]
+15:34:51.460202 db@open opening
+15:34:51.460274 journal@recovery F·1
+15:34:51.463056 journal@recovery recovering @1
+15:34:51.479525 memdb@flush created L0@2 N·10 S·602B "H\x8d\xa7..>>\x9f,v3":"r\x00\x00..>>\x9f,v5"
+15:34:51.482652 version@stat F·[1] S·602B[602B] Sc·[0.25]
+15:34:51.508805 db@janitor F·3 G·0
+15:34:51.508863 db@open done T·48.643154ms
+=============== Aug 2, 2022 (EAT) ===============
+19:33:38.069503 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:33:38.070269 version@stat F·[1] S·602B[602B] Sc·[0.25]
+19:33:38.070354 db@open opening
+19:33:38.070475 journal@recovery F·1
+19:33:38.074543 journal@recovery recovering @3
+19:33:38.081014 memdb@flush created L0@5 N·488 S·22KiB "Dat..ion,v12":"r\x00\x00..\u007f\xb9\x9f,v495"
+19:33:38.084311 version@stat F·[2] S·22KiB[22KiB] Sc·[0.50]
+19:33:38.105901 db@janitor F·4 G·0
+19:33:38.105943 db@open done T·35.576691ms
+=============== Aug 23, 2022 (EAT) ===============
+22:21:09.274204 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:21:09.274745 version@stat F·[2] S·22KiB[22KiB] Sc·[0.50]
+22:21:09.274775 db@open opening
+22:21:09.274861 journal@recovery F·1
+22:21:09.277671 journal@recovery recovering @6
+22:21:09.336670 memdb@flush created L0@8 N·28936 S·1MiB "H\x00\x15..昍,v10899":"r\x00\x00..5\xde\xcf,v29432"
+22:21:09.339745 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+22:21:09.365091 db@janitor F·5 G·0
+22:21:09.365124 db@open done T·90.335511ms
